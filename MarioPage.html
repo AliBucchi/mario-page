@@ -1,90 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    
+    <title> Mario World Page </title>
+    
+    <audio autoplay>
+      <source src="assets/Música de Super Mario Bros. 3 - Tema Principal 2.mp3" type="audio/mp3"/>
+    </audio>
+    
+    <!-- <img class="figure" src="/assets/Mario_red.jpg" type="image/jpg>" --> 
 
-        <link rel="stylesheet" type="text/css" href="Style.css">
+  </head>
 
-        <title> Mario World Page </title>
+  <body>
 
-        <audio autoplay>
-            <source src="assets/Música de Super Mario Bros. 3 - Tema Principal 2.mp3" type="audio/mp3"/>
-        </audio>
+    <div class="wrapper">
+      <input type="radio" name="rb" id="rb1" />
+      <label for="rb1"> Mario stories </label>
 
-        <img class="figure" src="/assets/Mario_red.jpg" type="image/jpg>"
+      <input type="radio" name="rb" id="rb2" />
+      <label for="rb2"> News </label>
 
+      <input type="radio" name="rb" id="rb3" />
+      <label for="rb3"> T-shirts </label>
 
+      <input type="radio" name="rb" id="rb4" />
+      <label for="rb4"> Acessories </label>
 
-      </head>
+      <input type="radio" name="rb" id="rb5" />
+      <label for="rb5"> About Mario Page </label>
+    </div>
+  
+    <section>
+      <h1 class="text"> "Welcome to Mario Land" - Your new journey start here! </h1>
+      <h2 class="text"> Where is Peach Princess? </h2>
+    
+      <div>
+        <img id="gif" class="gif" src="assets/mario-bowser.gif">
+      </div>
+    
+      <p class="text" id="data"> </p>
 
-    <body>
-
-      <nav class="navbar">
-            <ul class="navbar-list">
-              <a href="#">
-              </a>
-              <a href="#" 
-              class="nav-item"
-              >
-              Store
-              </a>
-              <a href="#" 
-              class="nav-item"
-              >
-              History
-              </a>
-              <a href="#" 
-              class="nav-item"
-              >
-              Products
-              </a>
-              <a href="#" 
-              class="nav-item"
-              >
-              Buy itens 
-              </a>
-              <a href="#" 
-              class="nav-item"
-              >
-              Support
-              </a>
-              <a href="#" 
-              class="nav-item">
-                <img 
-                  src="./assets/search.png" 
-                  alt="Search Icon" 
-                  class="nav-image"
-               />
-              </a>
-              <a href="#" 
-              class="nav-item"
-              >
-                <img 
-                  src="./assets/shopping-bag.png" 
-                  alt="Shopping bag Icon" 
-                  class="nav-image"
-                />
-            </a>
-
-            </ul>
-            
-        </nav>
-
-        <section>
-            <h1 class="text"> "Welcome to Mario Land" <br> Your new journey start here! </h1>
-            <h2 class="text"> Where is Peach Princess? </h2>
-
-            <div>
-                <img id="gif" class="gif" src="assets/mario-bowser.gif">
-            </div>
-
-            <p class="text" id="data"> </p>
-
-        </section>
-        
-        <script type="text/javascript" src="index.js"> </script>
-
-    </body>
+    </section>
+  
+    <!-- <script type="text/javascript" src="index.js"> </script> -->
+    
+  </body>
 </html>
+
+
